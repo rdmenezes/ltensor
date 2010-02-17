@@ -1,0 +1,9 @@
+i j k l | l m 
+i j k l | m l 
+i j l k | l m 
+i j l k | m l 
+i l j k | l m 
+i l j k | m l 
+j i k l | l m 
+l i j k | l m 
+l i j k | m l 

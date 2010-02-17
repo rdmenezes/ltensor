@@ -1,0 +1,1010 @@
+# depslib dependency file v1.0
+1211319500 source:c:\users\memphis\facultad\serializationtest\main.cpp
+	"TExprs.h"
+	<iostream>
+
+1210959008 
+
+1221493767 c:\users\memphis\facultad\ltensor\texprs.h
+	"./base/Array_base.h"
+	"./base/TinyArray_base.h"
+	"./Promote_Types/promote.h"
+	"./Marray/Marray.h"
+	"./Tensor_Operations/Tensor_Operations.h"
+	"./Expr/Exprs.h"
+
+1206636812 prs.h"
+
+1221681646 c:\users\memphis\facultad\ltensor\base\array_base.h
+	"../storage/storage.h"
+	"../meta/Metaprograms.h"
+	"Constants.h"
+	<cassert>
+	<cstdarg>
+	<string>
+	<iostream>
+
+1213800236 c:\users\memphis\facultad\ltensor\storage\storage.h
+	"../static/sVector.h"
+	"../meta/Metaprograms.h"
+
+1210959008 etaprograms.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\static\svector.h
+	"../meta/Metaprograms.h"
+	"../base/Range.h"
+
+1206636814 ange.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\meta\metaprograms.h
+	"../static/sVector.h"
+	"../base/Array_base.h"
+	<cstdlib>
+
+1206636812 c:\users\memphis\facultad\ltensor\base\range.h
+	"../static/sVector.h"
+	<cmath>
+
+1206636812 /sVector.h"
+
+1221680281 c:\users\memphis\facultad\ltensor\base\constants.h
+
+1213379776 c:\users\memphis\facultad\ltensor\base\tinyarray_base.h
+	"../meta/Metaprograms.h"
+	<cstdarg>
+	<string>
+	<iostream>
+	<cassert>
+
+1206636814 c:\users\memphis\facultad\ltensor\promote_types\promote.h
+
+1223484306 c:\users\memphis\facultad\ltensor\marray\marray.h
+	"check_Marray.h"
+	"../meta/Metaprograms.h"
+	"../base/Array_base.h"
+	"../Expr/IndexF.h"
+	"../Expr/IndexH.h"
+	"./Marray_rank1.h"
+	"./Marray_rank2.h"
+	"./Marray_rank3.h"
+	"./Marray_rank4.h"
+	"../Expr/IndexG.h"
+
+1206636814 ndexF.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\marray\check_marray.h
+
+1221507956 c:\users\memphis\facultad\ltensor\marray\marray_rank1.h
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<sstream>
+	<vector>
+	"../base/Array_base.h"
+	"../meta/Metaprograms.h"
+	"../Expr/Expr1/Expr1.h"
+	"../Expr/Expr1/F_Expr1.h"
+
+1211317918 xpr1/Expr1.h"
+
+1221684317 c:\users\memphis\facultad\ltensor\expr\expr1\expr1.h
+	<assert.h>
+
+1223484942 c:\users\memphis\facultad\ltensor\marray\marray_rank2.h
+	<assert.h>
+	"../Tensor_Operations/Encapsulate_Tensors/Encapsulate_Tensors.h"
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<string>
+	<sstream>
+	"../Expr/IndexG.h"
+
+1211319803 ndexG.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\encapsulate_tensors\encapsulate_tensors.h
+	"./Encapsulate_to_Expr1.h"
+	"./Encapsulate_to_Expr2.h"
+	"./Encapsulate_to_Expr3.h"
+	"./Encapsulate_to_Expr4.h"
+
+1206636814 late_to_Expr4.h"
+
+1221751439 c:\users\memphis\facultad\ltensor\tensor_operations\encapsulate_tensors\encapsulate_to_expr1.h
+	<assert.h>
+
+1223495741 c:\users\memphis\facultad\ltensor\tensor_operations\encapsulate_tensors\encapsulate_to_expr2.h
+
+1221681827 c:\users\memphis\facultad\ltensor\tensor_operations\encapsulate_tensors\encapsulate_to_expr3.h
+
+1221682001 c:\users\memphis\facultad\ltensor\tensor_operations\encapsulate_tensors\encapsulate_to_expr4.h
+
+1223485363 c:\users\memphis\facultad\ltensor\expr\indexg.h
+
+1223495563 c:\users\memphis\facultad\ltensor\marray\marray_rank3.h
+	<assert.h>
+	<algorithm>
+	<iostream>
+
+1221511347 c:\users\memphis\facultad\ltensor\marray\marray_rank4.h
+
+1217345361 c:\users\memphis\facultad\ltensor\expr\indexf.h
+	<iostream>
+	"../Marray/Marray_rank1.h"
+
+1210957464 /Marray_rank1.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_operations.h
+	"./check_Tensor_Operations.h"
+	"./Encapsulate_Tensors/Encapsulate_Tensors.h"
+	"./Permute_Tensors/Permute_Tensors.h"
+	"./Equate_Tensors/Equate_Tensors.h"
+	"./Sum_Tensors/Sum_Tensors.h"
+	"./Subtract_Tensors/Subtract_Tensors.h"
+	"./Plus_Tensors/Plus_Tensors.h"
+	"./Minus_Tensors/Minus_Tensors.h"
+	"./Tensor_times_Scalar/Tensor_times_Scalar.h"
+	"./Tensor_divided_Scalar/Tensor_divided_Scalar.h"
+	"./Tensor_Contractions/Tensor_Contractions.h"
+	"./Tensor_times_Tensor/Tensor_times_Tensor.h"
+
+1206636814 times_Tensor/Tensor_times_Tensor.h"
+
+1221506985 c:\users\memphis\facultad\ltensor\tensor_operations\check_tensor_operations.h
+	<assert.h>
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\permute_tensors\permute_tensors.h
+	"./Permute_TensorsRank2.h"
+	"./Permute_TensorsRank3.h"
+	"./Permute_TensorsRank4.h"
+
+1206636814 _TensorsRank4.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\permute_tensors\permute_tensorsrank2.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\permute_tensors\permute_tensorsrank3.h
+
+1214865920 c:\users\memphis\facultad\ltensor\tensor_operations\permute_tensors\permute_tensorsrank4.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\equate_tensors\equate_tensors.h
+	"./Equate_TensorsRank1.h"
+	"./Equate_TensorsRank2.h"
+	"./Equate_TensorsRank3.h"
+	"./Equate_TensorsRank4.h"
+
+1206636814 TensorsRank4.h"
+
+1221682316 c:\users\memphis\facultad\ltensor\tensor_operations\equate_tensors\equate_tensorsrank1.h
+	"../../Expr/IndexG.h"
+
+1209519996 r/IndexG.h"
+
+1221682383 c:\users\memphis\facultad\ltensor\tensor_operations\equate_tensors\equate_tensorsrank2.h
+
+1221682563 c:\users\memphis\facultad\ltensor\tensor_operations\equate_tensors\equate_tensorsrank3.h
+
+1221682669 c:\users\memphis\facultad\ltensor\tensor_operations\equate_tensors\equate_tensorsrank4.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\sum_tensors\sum_tensors.h
+	"./Sum_TensorsRank1.h"
+	"./Sum_TensorsRank2.h"
+	"./Sum_TensorsRank3.h"
+	"./Sum_TensorsRank4.h"
+
+1206636814 sorsRank4.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\sum_tensors\sum_tensorsrank1.h
+	"../../Promote_Types/promote.h"
+
+1206636812 mote_Types/promote.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\sum_tensors\sum_tensorsrank2.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\sum_tensors\sum_tensorsrank3.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\sum_tensors\sum_tensorsrank4.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\subtract_tensors\subtract_tensors.h
+	"./Subtract_TensorsRank1.h"
+	"./Subtract_TensorsRank2.h"
+	"./Subtract_TensorsRank3.h"
+	"./Subtract_TensorsRank4.h"
+
+1206636814 t_TensorsRank4.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\subtract_tensors\subtract_tensorsrank1.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\subtract_tensors\subtract_tensorsrank2.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\subtract_tensors\subtract_tensorsrank3.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\subtract_tensors\subtract_tensorsrank4.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\plus_tensors\plus_tensors.h
+	"./Plus_TensorsRank1.h"
+	"./Plus_TensorsRank2.h"
+	"./Plus_TensorsRank3.h"
+	"./Plus_TensorsRank4.h"
+
+1206636814 nsorsRank4.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\plus_tensors\plus_tensorsrank1.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\plus_tensors\plus_tensorsrank2.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\plus_tensors\plus_tensorsrank3.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\plus_tensors\plus_tensorsrank4.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\minus_tensors\minus_tensors.h
+	"./Minus_TensorsRank1.h"
+	"./Minus_TensorsRank2.h"
+	"./Minus_TensorsRank3.h"
+	"./Minus_TensorsRank4.h"
+
+1206636814 ensorsRank4.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\minus_tensors\minus_tensorsrank1.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\minus_tensors\minus_tensorsrank2.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\minus_tensors\minus_tensorsrank3.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\minus_tensors\minus_tensorsrank4.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_scalar\tensor_times_scalar.h
+	"./TensorRank1_times_Scalar.h"
+	"./TensorRank2_times_Scalar.h"
+	"./TensorRank3_times_Scalar.h"
+	"./TensorRank4_times_Scalar.h"
+
+1206636814 ank4_times_Scalar.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_scalar\tensorrank1_times_scalar.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_scalar\tensorrank2_times_scalar.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_scalar\tensorrank3_times_scalar.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_scalar\tensorrank4_times_scalar.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_divided_scalar\tensor_divided_scalar.h
+	"./TensorRank1_divided_Scalar.h"
+	"./TensorRank2_divided_Scalar.h"
+	"./TensorRank3_divided_Scalar.h"
+	"./TensorRank4_divided_Scalar.h"
+
+1206636814 ank4_divided_Scalar.h"
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_divided_scalar\tensorrank1_divided_scalar.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_divided_scalar\tensorrank2_divided_scalar.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_divided_scalar\tensorrank3_divided_scalar.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_divided_scalar\tensorrank4_divided_scalar.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor_contractions.h
+	"./Tensor1_contracts_Tensor1.h"
+	"./Tensor2_contracts_Tensor1.h"
+	"./Tensor2_contracts_Tensor2.h"
+	"./Tensor3_contracts_Tensor1.h"
+	"./Tensor3_contracts_Tensor2.h"
+	"./Tensor3_contracts_Tensor3.h"
+	"./Tensor4_contracts_Tensor1.h"
+	"./Tensor4_contracts_Tensor2.h"
+	"./Tensor4_contracts_Tensor3.h"
+	"./Tensor4_contracts_Tensor4.h"
+
+1206636814 _contracts_Tensor4.h"
+
+1221762674 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor1_contracts_tensor1.h
+
+1223484157 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor2_contracts_tensor1.h
+
+1223484139 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor2_contracts_tensor2.h
+
+1223484143 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor3_contracts_tensor1.h
+
+1223484151 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor3_contracts_tensor2.h
+
+1223484154 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor3_contracts_tensor3.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor4_contracts_tensor1.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor4_contracts_tensor2.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor4_contracts_tensor3.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_contractions\tensor4_contracts_tensor4.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_tensor\tensor_times_tensor.h
+	"./Tensor1_times_Tensor1.h"
+	"./Tensor2_times_Tensor1.h"
+	"./Tensor3_times_Tensor1.h"
+	"./Tensor2_times_Tensor2.h"
+
+1206636814 _times_Tensor2.h"
+
+1221762674 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_tensor\tensor1_times_tensor1.h
+
+1221762673 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_tensor\tensor2_times_tensor1.h
+
+1206636814 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_tensor\tensor3_times_tensor1.h
+
+1221762673 c:\users\memphis\facultad\ltensor\tensor_operations\tensor_times_tensor\tensor2_times_tensor2.h
+
+1221493767 c:\users\memphis\facultad\ltensor\expr\exprs.h
+	"./Expr1/Expr1s.h"
+	"./Expr2/Expr2s.h"
+	"./Expr3/Expr3s.h"
+	"./Expr4/Expr4s.h"
+
+1206636812 xpr4s.h"
+
+1221493630 c:\users\memphis\facultad\ltensor\expr\expr1\expr1s.h
+	"./Expr1.h"
+	"./F_Expr1.h"
+	"./Expr1_Equals.h"
+	"./Expr1_plus_Expr1.h"
+	"./Expr1_minus_Expr1.h"
+	"./Expr1_times_Expr0.h"
+	"./Expr1_divided_Expr0.h"
+	"./minus_Expr1.h"
+	"./plus_Expr1.h"
+	"./Expr1_contract_Expr1.h"
+
+1206636812 ontract_Expr1.h"
+
+1221511030 c:\users\memphis\facultad\ltensor\expr\expr1\expr1_equals.h
+	<assert.h>
+
+1221751439 c:\users\memphis\facultad\ltensor\expr\expr1\expr1_plus_expr1.h
+	<assert.h>
+	"./Expr1.h"
+	"../../Promote_Types/promote.h"
+
+1221754675 c:\users\memphis\facultad\ltensor\expr\expr1\expr1_minus_expr1.h
+	<assert.h>
+	"./Expr1.h"
+
+1206636812 "
+
+1221751490 c:\users\memphis\facultad\ltensor\expr\expr1\expr1_times_expr0.h
+
+1221751439 c:\users\memphis\facultad\ltensor\expr\expr1\expr1_divided_expr0.h
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr1\minus_expr1.h
+	<assert.h>
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr1\plus_expr1.h
+	<assert.h>
+
+1221752569 c:\users\memphis\facultad\ltensor\expr\expr1\expr1_contract_expr1.h
+
+1221755073 c:\users\memphis\facultad\ltensor\expr\expr2\expr2s.h
+	"./Expr2.h"
+	"./F_Expr2.h"
+	"./Expr2_Equals.h"
+	"./Expr2_plus_Expr2.h"
+	"./Expr2_minus_Expr2.h"
+	"./Expr2_times_Expr0.h"
+	"./Expr2_divided_Expr0.h"
+	"./minus_Expr2.h"
+	"./plus_Expr2.h"
+	"./Expr2_contract_Expr2.h"
+	"./Expr2_contract_Expr1.h"
+	"./Expr1_times_Expr1.h"
+
+1206636812 imes_Expr1.h"
+
+1221752519 c:\users\memphis\facultad\ltensor\expr\expr2\expr2.h
+	<assert.h>
+
+1216226890 c:\users\memphis\facultad\ltensor\expr\expr2\expr2_equals.h
+	<assert.h>
+
+1221754754 c:\users\memphis\facultad\ltensor\expr\expr2\expr2_plus_expr2.h
+	<assert.h>
+	"./Expr2.h"
+
+1221754671 c:\users\memphis\facultad\ltensor\expr\expr2\expr2_minus_expr2.h
+	<assert.h>
+	"./Expr2.h"
+
+1221754862 c:\users\memphis\facultad\ltensor\expr\expr2\expr2_times_expr0.h
+
+1221754592 c:\users\memphis\facultad\ltensor\expr\expr2\expr2_divided_expr0.h
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr2\minus_expr2.h
+	<assert.h>
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr2\plus_expr2.h
+	<assert.h>
+
+1221754530 c:\users\memphis\facultad\ltensor\expr\expr2\expr2_contract_expr2.h
+
+1221752683 c:\users\memphis\facultad\ltensor\expr\expr2\expr2_contract_expr1.h
+	<assert.h>
+
+1221762674 c:\users\memphis\facultad\ltensor\expr\expr2\expr1_times_expr1.h
+
+1221493752 c:\users\memphis\facultad\ltensor\expr\expr3\expr3s.h
+	"./Expr3.h"
+	"./F_Expr3.h"
+	"./Expr3_Equals.h"
+	"./Expr3_plus_Expr3.h"
+	"./Expr3_minus_Expr3.h"
+	"./Expr3_times_Expr0.h"
+	"./Expr3_divided_Expr0.h"
+	"./minus_Expr3.h"
+	"./plus_Expr3.h"
+	"./Expr3_contract_Expr3.h"
+	"./Expr3_contract_Expr1.h"
+	"./Expr3_contract_Expr2.h"
+	"./Expr2_times_Expr1.h"
+
+1221755917 c:\users\memphis\facultad\ltensor\expr\expr3\expr3.h
+	<assert.h>
+
+1221761245 c:\users\memphis\facultad\ltensor\expr\expr3\expr3_equals.h
+	<assert.h>
+
+1221761504 c:\users\memphis\facultad\ltensor\expr\expr3\expr3_plus_expr3.h
+	<assert.h>
+
+1221761412 c:\users\memphis\facultad\ltensor\expr\expr3\expr3_minus_expr3.h
+	<assert.h>
+
+1221761550 c:\users\memphis\facultad\ltensor\expr\expr3\expr3_times_expr0.h
+
+1221761163 c:\users\memphis\facultad\ltensor\expr\expr3\expr3_divided_expr0.h
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr3\minus_expr3.h
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr3\plus_expr3.h
+
+1221761127 c:\users\memphis\facultad\ltensor\expr\expr3\expr3_contract_expr3.h
+
+1221761127 c:\users\memphis\facultad\ltensor\expr\expr3\expr3_contract_expr1.h
+
+1221761127 c:\users\memphis\facultad\ltensor\expr\expr3\expr3_contract_expr2.h
+
+1221755197 c:\users\memphis\facultad\ltensor\expr\expr3\expr2_times_expr1.h
+
+1221493766 c:\users\memphis\facultad\ltensor\expr\expr4\expr4s.h
+	"./Expr4.h"
+	"./F_Expr4.h"
+	"./Expr4_Equals.h"
+	"./Expr4_plus_Expr4.h"
+	"./Expr4_minus_Expr4.h"
+	"./Expr4_times_Expr0.h"
+	"./Expr4_divided_Expr0.h"
+	"./minus_Expr4.h"
+	"./plus_Expr4.h"
+	"./Expr4_contract_Expr2.h"
+	"./Expr4_contract_Expr1.h"
+	"./Expr4_contract_Expr3.h"
+	"./Expr4_contract_Expr4.h"
+	"./Expr2_times_Expr2.h"
+	"./Expr3_times_Expr1.h"
+
+1221762539 c:\users\memphis\facultad\ltensor\expr\expr4\expr4.h
+	<assert.h>
+
+1209749716 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_equals.h
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_plus_expr4.h
+	<assert.h>
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_minus_expr4.h
+	<assert.h>
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_times_expr0.h
+
+1221762673 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_divided_expr0.h
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr4\minus_expr4.h
+
+1206636812 c:\users\memphis\facultad\ltensor\expr\expr4\plus_expr4.h
+
+1221762674 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_contract_expr2.h
+
+1221762674 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_contract_expr1.h
+
+1221762674 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_contract_expr3.h
+
+1221762674 c:\users\memphis\facultad\ltensor\expr\expr4\expr4_contract_expr4.h
+
+1221755255 c:\users\memphis\facultad\ltensor\expr\expr4\expr2_times_expr2.h
+
+1221762674 c:\users\memphis\facultad\ltensor\expr\expr4\expr3_times_expr1.h
+
+1211301500 source:/home/memphis/Desktop/Facultad/SerializationTest/main.cpp
+	"TExprs.h"
+	<iostream>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/TExprs.h
+	"./base/Array_base.h"
+	"./base/TinyArray_base.h"
+	"./Promote_Types/promote.h"
+	"./Marray/Marray.h"
+	"./Tensor_Operations/Tensor_Operations.h"
+	"./Expr/Exprs.h"
+
+1212495344 /home/memphis/Desktop/Facultad/LTensor/base/Array_base.h
+	"../storage/storage.h"
+	"../meta/Metaprograms.h"
+	"Constants.h"
+	<cassert>
+	<cstdarg>
+	<string>
+	<iostream>
+
+1210941010 /home/memphis/Desktop/Facultad/LTensor/storage/storage.h
+	"../static/sVector.h"
+	"../meta/Metaprograms.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/static/sVector.h
+	"../meta/Metaprograms.h"
+	"../base/Range.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/meta/Metaprograms.h
+	"../static/sVector.h"
+	"../base/Array_base.h"
+	<cstdlib>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/base/Range.h
+	"../static/sVector.h"
+	<cmath>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/base/Constants.h
+
+1212494556 /home/memphis/Desktop/Facultad/LTensor/base/TinyArray_base.h
+	"../meta/Metaprograms.h"
+	<cstdarg>
+	<string>
+	<iostream>
+	<cassert>
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Promote_Types/promote.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Marray/Marray.h
+	"check_Marray.h"
+	"../meta/Metaprograms.h"
+	"../base/Array_base.h"
+	"./Marray_rank1.h"
+	"./Marray_rank2.h"
+	"./Marray_rank3.h"
+	"./Marray_rank4.h"
+	"../Expr/IndexG.h"
+	"../Expr/IndexF.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Marray/check_Marray.h
+
+1212582768 /home/memphis/Desktop/Facultad/LTensor/Marray/Marray_rank1.h
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<vector>
+	"../base/Array_base.h"
+	"../meta/Metaprograms.h"
+	"../Expr/Expr1/Expr1.h"
+
+1204378588 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/Expr1.h
+	<assert.h>
+
+1212753951 /home/memphis/Desktop/Facultad/LTensor/Marray/Marray_rank2.h
+	<assert.h>
+	"../Tensor_Operations/Encapsulate_Tensors/Encapsulate_Tensors.h"
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<string>
+	<sstream>
+	"../Expr/IndexG.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Encapsulate_Tensors/Encapsulate_Tensors.h
+	"./Encapsulate_to_Expr1.h"
+	"./Encapsulate_to_Expr2.h"
+	"./Encapsulate_to_Expr3.h"
+	"./Encapsulate_to_Expr4.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Encapsulate_Tensors/Encapsulate_to_Expr1.h
+	<assert.h>
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Encapsulate_Tensors/Encapsulate_to_Expr2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Encapsulate_Tensors/Encapsulate_to_Expr3.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Encapsulate_Tensors/Encapsulate_to_Expr4.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/IndexG.h
+
+1212582424 /home/memphis/Desktop/Facultad/LTensor/Marray/Marray_rank3.h
+	<assert.h>
+	<algorithm>
+	<iostream>
+
+1212582662 /home/memphis/Desktop/Facultad/LTensor/Marray/Marray_rank4.h
+
+1210939466 /home/memphis/Desktop/Facultad/LTensor/Expr/IndexF.h
+	<iostream>
+	"../Marray/Marray_rank1.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Operations.h
+	"./check_Tensor_Operations.h"
+	"./Encapsulate_Tensors/Encapsulate_Tensors.h"
+	"./Permute_Tensors/Permute_Tensors.h"
+	"./Equate_Tensors/Equate_Tensors.h"
+	"./Sum_Tensors/Sum_Tensors.h"
+	"./Subtract_Tensors/Subtract_Tensors.h"
+	"./Plus_Tensors/Plus_Tensors.h"
+	"./Minus_Tensors/Minus_Tensors.h"
+	"./Tensor_times_Scalar/Tensor_times_Scalar.h"
+	"./Tensor_divided_Scalar/Tensor_divided_Scalar.h"
+	"./Tensor_Contractions/Tensor_Contractions.h"
+	"./Tensor_times_Tensor/Tensor_times_Tensor.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/check_Tensor_Operations.h
+	<assert.h>
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Permute_Tensors/Permute_Tensors.h
+	"./Permute_TensorsRank2.h"
+	"./Permute_TensorsRank3.h"
+	"./Permute_TensorsRank4.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Permute_Tensors/Permute_TensorsRank2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Permute_Tensors/Permute_TensorsRank3.h
+
+1208372196 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Permute_Tensors/Permute_TensorsRank4.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Equate_Tensors/Equate_Tensors.h
+	"./Equate_TensorsRank1.h"
+	"./Equate_TensorsRank2.h"
+	"./Equate_TensorsRank3.h"
+	"./Equate_TensorsRank4.h"
+
+1209501996 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Equate_Tensors/Equate_TensorsRank1.h
+	"../../Expr/IndexG.h"
+
+1209502348 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Equate_Tensors/Equate_TensorsRank2.h
+
+1209555550 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Equate_Tensors/Equate_TensorsRank3.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Equate_Tensors/Equate_TensorsRank4.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Sum_Tensors/Sum_Tensors.h
+	"./Sum_TensorsRank1.h"
+	"./Sum_TensorsRank2.h"
+	"./Sum_TensorsRank3.h"
+	"./Sum_TensorsRank4.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Sum_Tensors/Sum_TensorsRank1.h
+	"../../Promote_Types/promote.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Sum_Tensors/Sum_TensorsRank2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Sum_Tensors/Sum_TensorsRank3.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Sum_Tensors/Sum_TensorsRank4.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Subtract_Tensors/Subtract_Tensors.h
+	"./Subtract_TensorsRank1.h"
+	"./Subtract_TensorsRank2.h"
+	"./Subtract_TensorsRank3.h"
+	"./Subtract_TensorsRank4.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Subtract_Tensors/Subtract_TensorsRank1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Subtract_Tensors/Subtract_TensorsRank2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Subtract_Tensors/Subtract_TensorsRank3.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Subtract_Tensors/Subtract_TensorsRank4.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Plus_Tensors/Plus_Tensors.h
+	"./Plus_TensorsRank1.h"
+	"./Plus_TensorsRank2.h"
+	"./Plus_TensorsRank3.h"
+	"./Plus_TensorsRank4.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Plus_Tensors/Plus_TensorsRank1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Plus_Tensors/Plus_TensorsRank2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Plus_Tensors/Plus_TensorsRank3.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Plus_Tensors/Plus_TensorsRank4.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Minus_Tensors/Minus_Tensors.h
+	"./Minus_TensorsRank1.h"
+	"./Minus_TensorsRank2.h"
+	"./Minus_TensorsRank3.h"
+	"./Minus_TensorsRank4.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Minus_Tensors/Minus_TensorsRank1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Minus_Tensors/Minus_TensorsRank2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Minus_Tensors/Minus_TensorsRank3.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Minus_Tensors/Minus_TensorsRank4.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Scalar/Tensor_times_Scalar.h
+	"./TensorRank1_times_Scalar.h"
+	"./TensorRank2_times_Scalar.h"
+	"./TensorRank3_times_Scalar.h"
+	"./TensorRank4_times_Scalar.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Scalar/TensorRank1_times_Scalar.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Scalar/TensorRank2_times_Scalar.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Scalar/TensorRank3_times_Scalar.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Scalar/TensorRank4_times_Scalar.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_divided_Scalar/Tensor_divided_Scalar.h
+	"./TensorRank1_divided_Scalar.h"
+	"./TensorRank2_divided_Scalar.h"
+	"./TensorRank3_divided_Scalar.h"
+	"./TensorRank4_divided_Scalar.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_divided_Scalar/TensorRank1_divided_Scalar.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_divided_Scalar/TensorRank2_divided_Scalar.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_divided_Scalar/TensorRank3_divided_Scalar.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_divided_Scalar/TensorRank4_divided_Scalar.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor_Contractions.h
+	"./Tensor1_contracts_Tensor1.h"
+	"./Tensor2_contracts_Tensor1.h"
+	"./Tensor2_contracts_Tensor2.h"
+	"./Tensor3_contracts_Tensor1.h"
+	"./Tensor3_contracts_Tensor2.h"
+	"./Tensor3_contracts_Tensor3.h"
+	"./Tensor4_contracts_Tensor1.h"
+	"./Tensor4_contracts_Tensor2.h"
+	"./Tensor4_contracts_Tensor3.h"
+	"./Tensor4_contracts_Tensor4.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor1_contracts_Tensor1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor2_contracts_Tensor1.h
+
+1209127784 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor2_contracts_Tensor2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor3_contracts_Tensor1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor3_contracts_Tensor2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor3_contracts_Tensor3.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor4_contracts_Tensor1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor4_contracts_Tensor2.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor4_contracts_Tensor3.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_Contractions/Tensor4_contracts_Tensor4.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Tensor/Tensor_times_Tensor.h
+	"./Tensor1_times_Tensor1.h"
+	"./Tensor2_times_Tensor1.h"
+	"./Tensor3_times_Tensor1.h"
+	"./Tensor2_times_Tensor2.h"
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Tensor/Tensor1_times_Tensor1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Tensor/Tensor2_times_Tensor1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Tensor/Tensor3_times_Tensor1.h
+
+1206618814 /home/memphis/Desktop/Facultad/LTensor/Tensor_Operations/Tensor_times_Tensor/Tensor2_times_Tensor2.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Exprs.h
+	"./Expr1/Expr1s.h"
+	"./Expr2/Expr2s.h"
+	"./Expr3/Expr3s.h"
+	"./Expr4/Expr4s.h"
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/Expr1s.h
+	"./Expr1.h"
+	"./Expr1_Equals.h"
+	"./Expr1_plus_Expr1.h"
+	"./Expr1_minus_Expr1.h"
+	"./Expr1_times_Expr0.h"
+	"./Expr1_divided_Expr0.h"
+	"./minus_Expr1.h"
+	"./plus_Expr1.h"
+	"./Expr1_contract_Expr1.h"
+
+1209497976 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/Expr1_Equals.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/Expr1_plus_Expr1.h
+	<assert.h>
+	"./Expr1.h"
+	"../../Promote_Types/promote.h"
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/Expr1_minus_Expr1.h
+	<assert.h>
+	"./Expr1.h"
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/Expr1_times_Expr0.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/Expr1_divided_Expr0.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/minus_Expr1.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/plus_Expr1.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr1/Expr1_contract_Expr1.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2s.h
+	"./Expr2.h"
+	"./Expr2_Equals.h"
+	"./Expr2_plus_Expr2.h"
+	"./Expr2_minus_Expr2.h"
+	"./Expr2_times_Expr0.h"
+	"./Expr2_divided_Expr0.h"
+	"./minus_Expr2.h"
+	"./plus_Expr2.h"
+	"./Expr2_contract_Expr2.h"
+	"./Expr2_contract_Expr1.h"
+	"./Expr1_times_Expr1.h"
+
+1204378730 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2.h
+	<assert.h>
+
+1209502242 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2_Equals.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2_plus_Expr2.h
+	<assert.h>
+	"./Expr2.h"
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2_minus_Expr2.h
+	<assert.h>
+	"./Expr2.h"
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2_times_Expr0.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2_divided_Expr0.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/minus_Expr2.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/plus_Expr2.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2_contract_Expr2.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr2_contract_Expr1.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr2/Expr1_times_Expr1.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3s.h
+	"./Expr3.h"
+	"./Expr3_Equals.h"
+	"./Expr3_plus_Expr3.h"
+	"./Expr3_minus_Expr3.h"
+	"./Expr3_times_Expr0.h"
+	"./Expr3_divided_Expr0.h"
+	"./minus_Expr3.h"
+	"./plus_Expr3.h"
+	"./Expr3_contract_Expr3.h"
+	"./Expr3_contract_Expr1.h"
+	"./Expr3_contract_Expr2.h"
+	"./Expr2_times_Expr1.h"
+
+1210940298 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3.h
+	<assert.h>
+
+1209502596 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3_Equals.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3_plus_Expr3.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3_minus_Expr3.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3_times_Expr0.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3_divided_Expr0.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/minus_Expr3.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/plus_Expr3.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3_contract_Expr3.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3_contract_Expr1.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr3_contract_Expr2.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr3/Expr2_times_Expr1.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4s.h
+	"./Expr4.h"
+	"./Expr4_Equals.h"
+	"./Expr4_plus_Expr4.h"
+	"./Expr4_minus_Expr4.h"
+	"./Expr4_times_Expr0.h"
+	"./Expr4_divided_Expr0.h"
+	"./minus_Expr4.h"
+	"./plus_Expr4.h"
+	"./Expr4_contract_Expr2.h"
+	"./Expr4_contract_Expr1.h"
+	"./Expr4_contract_Expr3.h"
+	"./Expr4_contract_Expr4.h"
+	"./Expr2_times_Expr2.h"
+	"./Expr3_times_Expr1.h"
+
+1210940358 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4.h
+	<assert.h>
+
+1209731716 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_Equals.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_plus_Expr4.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_minus_Expr4.h
+	<assert.h>
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_times_Expr0.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_divided_Expr0.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/minus_Expr4.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/plus_Expr4.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_contract_Expr2.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_contract_Expr1.h
+
+1208274692 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_contract_Expr3.h
+
+1208885738 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr4_contract_Expr4.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr2_times_Expr2.h
+
+1206618812 /home/memphis/Desktop/Facultad/LTensor/Expr/Expr4/Expr3_times_Expr1.h
+
+1213811688 c:\users\memphis\facultad\ltensor\expr\indexf_bis.h
+	<iostream>
+	"../Marray/Marray_rank1.h"
+	"IndexF.h"
+
+1221508372 c:\users\memphis\facultad\ltensor\expr\expr1\f_expr1.h
+	<assert.h>
+
+1223484412 c:\users\memphis\facultad\ltensor\expr\indexh.h
+	<iostream>
+	"../Marray/Marray_rank1.h"
+	"IndexH_bis.h"
+
+1223484399 c:\users\memphis\facultad\ltensor\expr\indexh_bis.h
+	<iostream>
+	"../Marray/Marray_rank1.h"
+	"IndexH.h"
+
+1221509431 c:\users\memphis\facultad\ltensor\expr\expr2\f_expr2.h
+
+1221509625 c:\users\memphis\facultad\ltensor\expr\expr3\f_expr3.h
+
+1221510058 c:\users\memphis\facultad\ltensor\expr\expr4\f_expr4.h
+
