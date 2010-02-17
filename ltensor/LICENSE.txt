@@ -1,0 +1,71 @@
+LTensor License
+--------------
+Copyright (C) 2008, 2009 ---                                              
+Alejandro Limache & Sebastian Rojas                                       
+http://www.cimec.org.ar/alimache/                                         
+http://code.google.com/p/ltensor/  
+
+The software (LTensor) is licensed under the terms of the  GNU General Public License (GPL) v.1  license
+with the following exceptions:
+
+Distribution of  modified  versions  of this code is permissible UNDER
+THE CONDITION THAT THIS CODE AND ANY MODIFICATIONS MADE TO IT IN THE
+SOURCE FILES REMAIN UNDER COPYRIGHT OF THE  ORIGINAL AUTHORs,  
+BOTH  SOURCE AND OBJECT  CODE  ARE MADE  FREELY AVAILABLE  WITHOUT CHARGE,
+AND CLEAR NOTICE IS GIVEN OF THE MODIFICATIONS.
+
+Distribution of this code for  any  commercial purpose  is permissible
+ONLY BY DIRECT ARRANGEMENT WITH THE COPYRIGHT OWNER.
+
+The full license text is reproduced below.
+
+This means that LTensor is no free software, but for private, research,
+and educational purposes it  can be  used at  absolutely no cost as long
+as the original authors and the Library get proper public credit for its use.
+
+
+==============================================================================
+
+LTensor
+A Tensor Library with full Indicial Notation
+Version 0.1 (Released on December 1, 2008).
+
+Copyright (C) 2007-2009-...                                             
+Alejandro Limache & Sebastian Rojas                                       
+
+International Center of Computational Methods in Engineering  (CIMEC)     
+Santa Fe, Argentina                                                       
+alejandrolimache@gmail.com         
+
+Permission is hereby granted, free  of charge, to any person obtaining
+a  copy  of this  software  and  associated  documentation files  (the
+"Software"), to  deal in  the Software without  restriction, including
+without limitation  the rights to  use, copy, modify, publish, distribute,  
+or  sell copies  of the  Software,  and to permit persons to whom the 
+Software  is furnished to do so, subject to the following conditions:
+
+Distribution of  modified  versions  of this code is permissible UNDER
+THE CONDITION THAT THIS CODE AND ANY MODIFICATIONS MADE TO IT IN THE
+SOURCE FILES REMAIN UNDER COPYRIGHT OF THE ORIGINAL AUTHORs,  
+BOTH  SOURCE AND OBJECT  CODE  ARE MADE  FREELY AVAILABLE  WITHOUT CHARGE,
+AND CLEAR NOTICE IS GIVEN OF THE MODIFICATIONS.
+
+Distribution of this code for  any  commercial purpose  is permissible
+ONLY BY DIRECT ARRANGEMENT WITH THE COPYRIGHT OWNER.
+
+This means that LTensor is no free software, but for private, research,
+and educational purposes it  can be  used at  absolutely no cost as long
+as the original authors and the Library get proper public credit for its use.
+
+The  above  copyright  notice  and  this permission  notice  shall  be
+included in all copies or substantial portions of the Software.
+
+THE  SOFTWARE IS  PROVIDED  "AS  IS", WITHOUT  WARRANTY  OF ANY  KIND,
+EXPRESS OR  IMPLIED, INCLUDING  BUT NOT LIMITED  TO THE  WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT  SHALL THE AUTHORS OR COPYRIGHT HOLDERS  BE LIABLE FOR ANY
+CLAIM, DAMAGES OR  OTHER LIABILITY, WHETHER IN AN  ACTION OF CONTRACT,
+TORT  OR OTHERWISE, ARISING  FROM, OUT  OF OR  IN CONNECTION  WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+==============================================================================

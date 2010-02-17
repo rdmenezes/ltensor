@@ -1,0 +1,6 @@
+i j k | j k 
+i j k | k j 
+j i k | j k 
+j i k | k j 
+j k i | j k 
+j k i | k j 
