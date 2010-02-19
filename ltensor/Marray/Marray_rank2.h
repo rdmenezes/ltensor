@@ -1146,6 +1146,27 @@ public:
 	}
 
 
+	
+	//Implemented for compatibility only, shouldn't be used in performance critic sections
+	//will fix this with the new cxx specification
+	
+	inline Marray<T,rank,base> operator-()
+	{
+
+		Marray<T,rank,base> temp(get_dim1(),get_dim2());
+
+			for(int i=0;i<get_dim1();i++)
+		{
+			for(int j=0;j<get_dim2();j++)
+			{
+				temp(i,j)=-(*this)(i,j);
+			}
+		}
+		
+		return temp;
+	}
+
+
 
 	//Compatibily operators
 	//cstyle ordering
