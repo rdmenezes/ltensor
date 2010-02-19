@@ -188,6 +188,24 @@ class Marray <T,rank,base> : public base
     }
 
 
+	
+	//Implemented for compatibility only, shouldn't be used in performance critic sections
+	//will fix this with the new cxx specification
+	
+	inline Marray<T,rank,base> operator-()
+	{
+
+		Marray<T,rank,base> temp(get_dim1(),get_dim2(),get_dim3());
+
+		 for( int i=0;i<get_dim1();i++)
+            for(int j=0;j<get_dim2();j++)
+                for(int k=0;k<get_dim3();k++)
+                    temp(i,j,k)=-(*this)(i,j,k);
+		
+		return temp;
+	}
+
+
 
     Marray(long* dimensions):base(dimensions){
 	    (*this)=0;

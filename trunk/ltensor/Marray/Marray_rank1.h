@@ -425,6 +425,20 @@ F_Expr1 < Encapsulate_to_Expr1<const Marray<T,rank,base>,T,rank,1,IndexF>, T>
 		return *this;
 	}
 
+	//Implemented for compatibility only, shouldn't be used in performance critic sections
+	//will fix this with the new cxx specification
+	
+	inline Marray<T,rank,base> operator-()
+	{
+
+		Marray<T,rank,base> temp(get_dim1());
+
+		for(int i=0;i<get_dim1();i++)
+			temp(i)=-(*this)(i);
+
+		return temp;
+	}
+
     //Scalar Assignations
     template <class U>
     inline Marray<T,rank,base> & operator= (const U &u){

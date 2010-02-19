@@ -171,6 +171,24 @@ class Marray <T,rank,base> : public base
 
     }
 
+		//Implemented for compatibility only, shouldn't be used in performance critic sections
+	//will fix this with the new cxx specification
+	
+	inline Marray<T,rank,base> operator-()
+	{
+
+		Marray<T,rank,base> temp(get_dim1(),get_dim2(),get_dim3(),get_dim4());
+
+		  for( int i=0;i<get_dim1();i++)
+            for(int j=0;j<get_dim2();j++)
+                for(int k=0;k<get_dim3();k++)
+                    for(int l=0;l<get_dim4();l++)
+                    temp(i,j,k,l)=-(*this)(i,j,k,l);
+		
+		return temp;
+	}
+
+
 
     template <class U>
     inline Marray<T,rank,base> & operator/= (const U &u){
