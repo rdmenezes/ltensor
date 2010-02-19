@@ -196,10 +196,6 @@
 				>
 			</File>
 			<File
-				RelativePath="..\Tensor_Operations\check_Tensor_Operations.h"
-				>
-			</File>
-			<File
 				RelativePath="..\base\Constants.h"
 				>
 			</File>
@@ -633,10 +629,6 @@
 			</File>
 			<File
 				RelativePath="..\static\sVector.h"
-				>
-			</File>
-			<File
-				RelativePath="..\Marray\Tdefs.h"
 				>
 			</File>
 			<File
