@@ -78,7 +78,7 @@ public:
 
 
 	Marray (long dimension1,long dimension2):base(dimension1,dimension2){
-		(*this)=0;
+		(*this)=(T)0.0;
 
 	}
 
